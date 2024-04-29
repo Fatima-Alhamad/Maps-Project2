@@ -1,0 +1,445 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+nav .nav-link {
+  color: black;
+}
+nav .zoka {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -0.095em;
+  text-align: left;
+}
+
+nav .youtubeRectangle {
+  width: 105px;
+  height: 50px;
+  display: flex;
+  border-radius: 22.5px;
+  border: 2px solid #3f41a6;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+nav .playLogo {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-left: 0;
+}
+nav .youtubeRectangle .youtubeText {
+  color: #3f41a6;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: auto;
+  margin-right: 0;
+  padding: 5px 10px;
+  padding-right: 0px;
+}
+/* hero section */
+.hero .container {
+  text-align: justify;
+  margin-top: 50px;
+}
+.hero .container .leftSide h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: justify;
+  color: #1a093c;
+}
+.hero .leftSide p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
+  margin: auto;
+  color: #1a093ccc;
+}
+section button {
+  width: 266px;
+  height: 80px;
+  background-color: #3f41a6;
+  border-radius: 50px !important;
+  margin-top: 40px !important;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 5px 16px 0px rgba(155, 154, 154, 0.75);
+  -webkit-box-shadow: 9px 5px 16px 0px rgba(155, 154, 154, 0.75);
+  -moz-box-shadow: 9px 5px 16px 0px rgba(155, 154, 154, 0.75);
+}
+section button a {
+  text-decoration: none;
+  color: rgb(248, 240, 240);
+}
+section button .imgContaine {
+  width: 20px;
+  height: 25px;
+  margin-left: 5px;
+  background-color: rgb(224, 208, 238);
+}
+section button img {
+  width: 12px;
+  height: 12px;
+  border: 1px 0px 0px 0px;
+  color: rgb(4, 4, 5);
+}
+/* right side  */
+.hero .container .row .rightSide {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.hero .container .rightSide .firstRow .col {
+  border-radius: 20px;
+  opacity: 0px;
+  overflow: hidden;
+}
+.hero .container .rightSide .secondRow .pic1 {
+  border-radius: 20px;
+  opacity: 0px;
+  overflow: hidden;
+}
+
+.hero .container .rightSide .secondRow .pic2 {
+  overflow: hidden;
+  border-radius: 20px;
+}
+/* second hero */
+
+.secondHero {
+  margin-top: 100px;
+}
+
+.secondHero .row .text h4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #3f41a6;
+}
+.secondHero .row .text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #1a093c;
+}
+.secondHero .row .text p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #1a093ccc;
+}
+/* characteristics section  */
+
+.thirdHero {
+  margin-top: 200px;
+}
+
+.thirdHero h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 90px;
+  color: #1a093c;
+}
+.thirdHero .container {
+  margin-top: 40px;
+}
+
+.thirdHero .container .row .col h4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #1a093c;
+}
+.thirdHero .container .row .col p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #1a093c;
+}
+
+/* card section */
+
+.cardSection {
+  margin-top: 200px;
+}
+
+/* end of the card */
+
+.cardSection .container .row .text p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #1a093ccc;
+}
+
+.cardSection .container .row .text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #1a093c;
+}
+
+.cardSection .container .row .text2 {
+  background-color: #f6f5fb;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.cardSection .container .row .text2 div h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px;
+}
+.cardSection .container .row .row .text2 div p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px;
+}
+
+/* design section */
+.design {
+  margin-top: 200px;
+}
+.design .row .text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #1a093c;
+}
+.design .row .text p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #1a093c;
+}
+
+.design .row .pic1 h1 span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.design .row .pic1 {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.design .row .pic1 img {
+  width: 300px;
+  height: 400px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+/* second picture */
+
+.design .row .pic2 h1 span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.design .row .pic2 {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  top: -55px;
+  left: 480px;
+}
+.design .row .pic2 img {
+  width: 300px;
+  height: 400px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+/* third picture */
+
+.design .row .pic3 h1 span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.design .row .pic3 {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  top: -200px;
+  left: 100px;
+}
+.design .row .pic3 img {
+  width: 300px;
+  height: 400px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+/* awesome section */
+.awesome {
+  margin-top: 150px;
+}
+
+.awesome .container h1 {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 90px;
+  text-align: left;
+  color: #1a093c;
+}
+
+.awesome .container p {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: left;
+}
+.awesome .container .p1 {
+  margin-top: 30px;
+}
+.awesome .container .row .col img {
+  width: 380px;
+  height: 402px;
+  top: 191px;
+  left: 530px;
+  gap: 0px;
+  border-radius: 50px;
+  opacity: 0px;
+}
+.awesome .container .row .col {
+  margin-bottom: 15px;
+}
+/* start section */
+.start {
+  margin-top: 150px;
+  position: relative;
+}
+.start .container {
+  border-radius: 100px;
+  background-color: #431898;
+}
+.start .container .row .final {
+  padding: 10%;
+}
+.start .container .row .final p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: white;
+}
+
+.start .container .row .final h1 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  text-align: left;
+  color: white;
+}
+
+.start .container .row .final button {
+  width: 266px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px !important;
+  margin-top: 40px !important;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.start .container .row .final button a {
+  text-decoration: none;
+  color: black;
+}
+.start .container .row .final button .imgContaine {
+  width: 20px;
+  height: 25px;
+  margin-left: 5px;
+  background-color: rgb(171, 168, 174);
+}
+.start .container .row .imageholder {
+  top: -100px;
+  left: 150px;
+}
+/* footer  */
+footer {
+  margin-top: 100px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+
+footer ul li a {
+  color: #3c3842;
+}
+
+footer .container .row .footerText p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #3c3842;
+}
